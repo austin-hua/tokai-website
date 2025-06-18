@@ -5,7 +5,7 @@ banner:
   title: 'An <span class="text-accent text-shadow-[0px_5px_15px] shadow-accent/10">Astro</span> Starter <span class="text-secondary"> batteries-included</span>'
   title_size: "text-4xl md:text-6xl"
   content: "A fully responsive astro starter repo, ideal for simple (yet laborious) content-driven pages or landings."  
-  image: /images/logo_v5_xl_pfp.webp
+  image: /images/tokai.png
   buttons:
     - label: Get the Code
       href: "https://github.com/diego-alfadev/alfadev-astro-starter"
@@ -16,19 +16,19 @@ banner:
 sections:
   - title: Tired of writing the same code over and over again?
     content: "We've all been there... Setting up the same SEO, theming, and responsive layout boilerplate again and again. Say goodbye to that! <b class='text-accent'>alfadev-astro-starter</b> lets you jump straight into creating, skipping the repetitive groundwork."
-    image: /images/tired-of-writing.webp
+    image: /images/chat.png
 
   - title: This is not a library
     content: It's a <b class='text-accent'>ready-to-go template</b>. No steep learning curves or dozens of new dependencies. Just the essentials to build content-driven pages with ease.<br/>If you're familiar with <span class="text-accent font-bold">Astro</span>, you are good to go.
-    image: /images/this-is-not-a-library.webp
+    image: /images/measurements.png
 
   - title: Optimized out of the box
     content: Lightweight and fast. Packed with <span class="text-accent font-bold">Astro</span>, <span class="text-[#38bdf8] font-bold">tailwind</span> and <span class="text-[#e41c81] font-bold">Sass</span> goodness, so your pages load <b class='text-accent'>blazing fast</b>—right from the start. <br/> All the pages are configured in a way that are SEO-friendly and defined with markdown.
-    image: /images/optimized-out-of-the-box.webp
+    image: /images/graphs.png
 
   - title: Looks great, day or night
     content: "With <b class='text-accent'>built-in dark theme support</b>, your site will look amazing no matter what time of day your users visit. Or what their eyes prefer.<br/> <br/>Forget convoluted theming systems. alfadev-astro-starter keeps it <b class='text-accent'>simple and extensible</b>, so you can focus on your design and let the code work fori you."
-    image: /images/loogs-good.webp
+    image: /images/profile.png
 
 
 ##key features

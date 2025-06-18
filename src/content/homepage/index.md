@@ -33,7 +33,7 @@ sections:
 
 ##key features
 features:
-  title: Why <span class="text-accent">alfadev-starter</span>?
+  title: Why Tokai?
   description: Because every content-driven page needs a lot boilerplate to initialize, and **we provide you with the tools and guidelines** needed to focus on what's important.
   feature_list:
     - icon: "box"  #icon package react-feather-icon [https://feathericons.com/]

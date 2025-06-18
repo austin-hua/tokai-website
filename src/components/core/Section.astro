@@ -49,12 +49,13 @@ const image_position_classes = (() => {
       {
         image && image_position === "top" && (
           <div class={`${image_position_classes[2]}`}>
-            <Image
-              class="w-1/2 mr-auto ml-auto object-contain rounded-xl"
+            <img
+              class="w-1/2 mr-auto ml-auto object-contain rounded-xl cursor-zoom-in"
               alt="section-image"
               src={image}
               width={500}
               height={333}
+              onclick="showLightbox(this.src)"
             />
           </div>
         )
@@ -77,16 +78,36 @@ const image_position_classes = (() => {
         {
           image && image_position != "top" && (
             <div class={`${image_position_classes[2]}`}>
-              <Image
-                class="w-full object-contain rounded-xl"
+              <img
+                class="w-full object-contain rounded-xl cursor-zoom-in"
                 alt="section-image"
                 src={image}
                 width={500}
                 height={333}
+                onclick="showLightbox(this.src)"
               />
             </div>
           )
         }
     </div>
   </div>
+  <div id="lightbox-modal" style="display:none;position:fixed;z-index:10000;top:0;left:0;width:100vw;height:100vh;background:rgba(0,0,0,0.8);align-items:center;justify-content:center;">
+    <span style="position:absolute;top:2rem;right:2rem;font-size:2rem;color:white;cursor:pointer;z-index:10001;" onclick="closeLightbox()">&times;</span>
+    <img id="lightbox-img" src="" alt="Large preview" style="max-width:90vw;max-height:80vh;border-radius:1rem;box-shadow:0 0 40px #000;" />
+  </div>
+  <script is:inline>
+    window.showLightbox = function(src) {
+      document.getElementById('lightbox-img').src = src;
+      document.getElementById('lightbox-modal').style.display = 'flex';
+    }
+    window.closeLightbox = function() {
+      document.getElementById('lightbox-modal').style.display = 'none';
+      document.getElementById('lightbox-img').src = '';
+    }
+    document.addEventListener('DOMContentLoaded', function() {
+      document.getElementById('lightbox-modal').addEventListener('click', function(e) {
+        if (e.target === this) closeLightbox();
+      });
+    });
+  </script>
 </section>

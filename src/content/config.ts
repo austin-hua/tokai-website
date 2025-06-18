@@ -40,6 +40,12 @@ const indexPage = defineCollection({
   schema: indexSchema,
 });
 
+// Team collection schema
+const teamCollection = defineCollection({
+  type: "content",
+  schema: zodPageConfig,
+});
+
 // Export collections
 export const collections = {
   about: pagesCollection,
@@ -48,6 +54,7 @@ export const collections = {
   features: pagesCollection,
   homepage: indexPage,
   pages: pagesCollection,
+  team: teamCollection,
 };
 
 

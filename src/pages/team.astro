@@ -1,0 +1,32 @@
+---
+import { getEntry } from "astro:content";
+import Base from "@/layouts/Base.astro";
+import { markdownify } from "@/lib/utils/textConverter";
+
+const entry = await getEntry("team", "index");
+const { Content } = await entry.render();
+---
+
+<Base entry_keys={["team", "index"]}>
+  <section class="section">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="text-center lg:col-10">
+          <h1
+            class="text-3xl lg:text-4xl font-bold lg:tracking-tight mt-1 lg:leading-tight"
+            set:html={markdownify(entry.data.title)}
+          />
+          <p
+            class="mt-4 text-lg text-text-secondary"
+            set:html={markdownify(entry.data.description)}
+          />
+        </div>
+      </div>
+      <div class="row mt-12">
+        <div class="col-12">
+          <Content />
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>

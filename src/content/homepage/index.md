@@ -4,7 +4,7 @@
 banner:
   title: 'AI <span class="text-secondary">Glucose Assistant</span>'
   title_size: "text-4xl md:text-6xl"
-  content: "A personal assistant and advanced data analytics toolset for managing your blood glucose data. Please note that both Tokai's website and app are in early-stage development and the features are not yet finalized."
+  content: "A personal assistant and advanced data analytics toolset for managing your blood glucose data."
   image: /images/tokai.png
   buttons:
     - label: Try the App
@@ -52,7 +52,7 @@ features:
       title: Effortless Experience
       content: Enjoy a clean, distraction-free interface designed for comfort and focus, so you can manage your health with ease.
     - icon: "tool"
-      title: Customizable Analytics
+      title: Custom Analytics
       content: Personalize your analytics dashboard to highlight the trends and metrics that matter most to you.
     - icon: "moon"
       title: Dark Mode Support

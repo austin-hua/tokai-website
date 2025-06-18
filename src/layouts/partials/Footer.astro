@@ -25,17 +25,14 @@ const has_social = Object.entries(social).some(
       </div>
       {
         has_social && (
-          <div class="w-full lg:w-1/3 flex justify-center">
-            <div>
-              <h6>{social.title ?? "Social"}</h6>
-              <Social source={social} className="social-icons mt-4 lg:mt-6" />
-            </div>
+          <div class="w-full lg:w-1/3 flex flex-col items-center">
+            <h6>{social.title ?? "Social"}</h6>
+            <Social source={social} className="social-icons mt-1 lg:mt-2 justify-center" />
           </div>
         )
       }
-      <div class="w-full lg:w-1/3 flex lg:justify-end">
-        <div>
-          <h6>Location & Contact</h6>
+      <div class="w-full lg:w-1/3 flex flex-col items-end text-right">
+        <h6>Location & Contact</h6>
         <ul>
           <li class="mb-2">{location}</li>
           <li class="mb-2">

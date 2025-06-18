@@ -2,15 +2,15 @@
 # Does not contain meta customizations because it is the homepage and config is already set in the config file
 
 banner:
-  title: 'An <span class="text-accent text-shadow-[0px_5px_15px] shadow-accent/10">Astro</span> Starter <span class="text-secondary"> batteries-included</span>'
+  title: 'AI <span class="text-secondary">Glucose Assistant</span>'
   title_size: "text-4xl md:text-6xl"
-  content: "A fully responsive astro starter repo, ideal for simple (yet laborious) content-driven pages or landings."  
+  content: "A personal assistant and advanced data analytics toolset for managing your blood glucose data."  
   image: /images/tokai.png
   buttons:
-    - label: Get the Code
-      href: "https://github.com/diego-alfadev/alfadev-astro-starter"
+    - label: Try the App
+      href: "https://huggingface.co/spaces/AustinHua/Tokai"
       target: "_blank"
-      icon: _GitHub
+      icon: /images/hf-logo-pirate.svg
       addClasses: "w-full bg-gray-900 text-white hover:bg-accent dark:border-white/10 dark:border"
 
 sections:

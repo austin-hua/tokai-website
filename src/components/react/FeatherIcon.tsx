@@ -2,6 +2,7 @@ import { humanize } from '@/lib/utils/textConverter'
 import React from 'react'
 import type { IconProps } from 'react-feather'
 import * as Icon from 'react-feather'
+import HuggingFace from '../icons/HuggingFace'
 
 /**
  * This component is a wrapper around react-feather icons prepared to be used in the markdown files content of the project.
@@ -14,6 +15,11 @@ export default function FeatherIcon(props: IconProps) {
 
     // return <p>{props.name}</p>ç
     const iconName = props.name?.startsWith("_") ? props.name.substring(1,props.name.length) : humanize(props.name as string)
+
+    // Handle custom icons
+    if (iconName === "HuggingFace") {
+        return <HuggingFace {...props} />
+    }
 
     const IconI = Icon[iconName]
 

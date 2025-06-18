@@ -25,12 +25,22 @@ const hasChildren = Object.keys(Astro.slots).length > 0;
 >
   {
     icon && (
-      <FeatherIcon
-        name={icon}
-        size={20}
-        client:load
-        className={`${label || hasChildren ? "mr-4" : "null"}`}
-      />
+      icon.startsWith("/") ? (
+        <img
+          src={icon}
+          alt=""
+          width="20"
+          height="20"
+          class={`inline-block ${label || hasChildren ? "mr-4" : ""}`}
+        />
+      ) : (
+        <FeatherIcon
+          name={icon}
+          size={20}
+          client:load
+          className={`${label || hasChildren ? "mr-4" : "null"}`}
+        />
+      )
     )
   }
   {label ?? <slot />}

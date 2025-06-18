@@ -34,44 +34,45 @@ sections:
 ##key features
 features:
   title: Why Tokai?
-  description: Because every content-driven page needs a lot boilerplate to initialize, and **we provide you with the tools and guidelines** needed to focus on what's important.
+  description: Discover the core features that make Tokai your next-generation glucose management assistant.
   feature_list:
-    - icon: "box"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Simple
-      content: Avoid Complexity, small yet not useless. Loaded, but <b class="text-text">not overwhelming</b>.
-    - icon: "clock"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Up-to-date
-      content: Using the latest version and best practices of <span class="text-accent font-bold">Astro</span>, <span class="text-[#38bdf8] font-bold">tailwindcss</span> and <span class="text-[#e41c81] font-bold">Sass</span>
-    - icon: "search"  #icon package react-feather-icon [https://feathericons.com/]
-      title: SEO Friendly
-      content: Boost your site's visibility with <b class="text-text">built-in SEO optimizations</b>, including automatic sitemap generation using <a target='blank' href="https://docs.astro.build/es/guides/integrations-guide/sitemap/"><span class="text-accent font-bold underline">astrojs/sitemap</span></a>.
-    - icon: "plus"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Extendable
-      content: Add or change content just by <b class="text-text">editing markdown files</b>, so it stays in one place regardless of the code.
-    - icon: "coffee"  #icon package react-feather-icon [https://feathericons.com/]
-      title: "Focused"
-      content: Put you effort on what's important, not on small details. Dont worry about <span class="text-shadow-sm shadow-surface-contrast">***that damn shadow***</span>.
-    - icon: "tool"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Customizable
-      content: Every corner of the page <b class="text-text">can be easily changed</b> to fit your needs.
-    - icon: "moon"  #icon package react-feather-icon [https://feathericons.com/]
+    - icon: "box"
+      title: All-in-One Data Hub
+      content: Collect, organize, and access all your blood glucose data in one secure place—manual or uploaded, always at your fingertips.
+    - icon: "clock"
+      title: Real-Time Insights
+      content: Instantly analyze your latest readings and trends, empowering you to make timely, informed health decisions.
+    - icon: "search"
+      title: Smart Data Search
+      content: Quickly find any measurement, event, or note with powerful, intuitive search and filtering tools.
+    - icon: "plus"
+      title: Easy Data Entry
+      content: Seamlessly add new readings or upload your entire history—Tokai makes data entry fast and frustration-free.
+    - icon: "coffee"
+      title: Effortless Experience
+      content: Enjoy a clean, distraction-free interface designed for comfort and focus, so you can manage your health with ease.
+    - icon: "tool"
+      title: Customizable Analytics
+      content: Personalize your analytics dashboard to highlight the trends and metrics that matter most to you.
+    - icon: "moon"
       title: Dark Mode Support
-      content: Fully supports ***dark theme*** with an easy-to-extend theming system.
-    - icon: "feather"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Lightweight
-      content: Fast and efficient. Every asset is optimized to ensure <b class="text-text">minimal load times</b>.
-    - icon: "layers"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Modular
-      content: Built with ***reusable components*** that simplify adding or editing sections of the page.
-    - icon: "zap"  #icon package react-feather-icon [https://feathericons.com/]
+      content: Switch to a beautiful, eye-friendly dark theme for late-night tracking or personal preference.
+    - icon: "feather"
+      title: Lightweight & Fast
+      content: Tokai is optimized for speed and efficiency, ensuring minimal load times and smooth performance on any device.
+    - icon: "layers"
+      title: Modular Design
+      content: Built with reusable components, making it easy to expand features or tailor the app to your needs.
+    - icon: "zap"
       title: Performance-First
-      content: Designed with <b class="text-text">best-in-class performance</b> metrics to improve the user experience.
-    - icon: "layout"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Content-Centric
-      content: Focused on delivering content seamlessly, making it ideal for <b class="text-text">portfolios, showcases, or landing pages</b>.
-    - icon: "code"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Developer-Friendly
-      content: Crafted for developers who value ***simplicity, flexibility, and modern*** tools.
+      content: Every feature is engineered for best-in-class speed, reliability, and user experience.
+    - icon: "layout"
+      title: Intuitive Layout
+      content: Navigate your data and tools effortlessly with a modern, user-friendly design.
+    - icon: "code"
+      title: Open Source
+      content: Tokai is built on open-source technology, giving you transparency, flexibility, and peace of mind.
+
 
 call_to_action:
   title: ""

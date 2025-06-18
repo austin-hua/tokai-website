@@ -1,11 +1,11 @@
 {
   "title": "Social",
-  "facebook": null,
+  "facebook": "http://facebook.com/tokaiapp",
   "twitter": null,
-  "instagram": null,
+  "instagram": "https://instagram.com/tokaiapp",
   "youtube": null,
-  "linkedin": "https://www.linkedin.com/in/diego-alfaro-saez-585ba2163/",
-  "github": "https://github.com/diego-alfadev",
+  "linkedin": "https://www.linkedin.com/company/tokaiapp",
+  "github": "https://github.com/tokaiapp",
   "gitlab": null,
   "medium": null,
   "codepen": null,
@@ -23,9 +23,9 @@
   "tiktok": null,
   "foursquare": null,
   "rss": null,
-  "email": "diego.alfadev@gmail.com",
+  "email": "r11922203@csie.ntu.edu.tw",
   "phone": null,
   "address": null,
-  "skype": "https://skype.com/",
+  "skype": null,
   "website": null
 }

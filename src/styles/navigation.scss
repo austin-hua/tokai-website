@@ -49,11 +49,11 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 
 .navbar-nav {
-  @apply text-center lg:text-left;
+  @apply text-center lg:text-left lg:space-x-10;
 }
 
 .nav-link {
-  @apply block p-3 py-2 text-xl md:text-base text-text transition hover:text-secondary md:px-2 lg:inline-block;
+  @apply block p-3 py-2 text-xl md:text-base text-text transition hover:text-secondary md:px-2 lg:inline-block lg:mx-4;
 
   &.active {
     @apply relative;

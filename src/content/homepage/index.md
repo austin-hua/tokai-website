@@ -14,20 +14,20 @@ banner:
       addClasses: "w-full bg-gray-900 text-white hover:bg-accent dark:border-white/10 dark:border"
 
 sections:
-  - title: Tired of writing the same code over and over again?
-    content: "We've all been there... Setting up the same SEO, theming, and responsive layout boilerplate again and again. Say goodbye to that! <b class='text-accent'>alfadev-astro-starter</b> lets you jump straight into creating, skipping the repetitive groundwork."
+  - title: Smart <span class="text-[#38bdf8] font-bold">AI</span> Chat
+    content: "Converse with <span class='text-[#38bdf8] font-bold'>Tokai</span>, your personal <span class='text-[#38bdf8] font-bold'>AI assistant</span> powered by Llama 3. Get instant answers, personalized <span class='text-[#38bdf8] font-bold'>insights</span>, and friendly support about your blood <span class='text-[#38bdf8] font-bold'>glucose data</span> or any diabetes-related questions—all in a natural, conversational way."
     image: /images/chat.png
 
-  - title: This is not a library
-    content: It's a <b class='text-accent'>ready-to-go template</b>. No steep learning curves or dozens of new dependencies. Just the essentials to build content-driven pages with ease.<br/>If you're familiar with <span class="text-accent font-bold">Astro</span>, you are good to go.
+  - title: All Your <span class="text-[#38bdf8] font-bold">Glucose Data</span>, One Place
+    content: "Seamlessly record new blood glucose readings or <span class='text-[#38bdf8] font-bold'>upload</span> your entire measurement history. <span class='text-[#38bdf8] font-bold'>Tokai</span> keeps everything organized, so you can easily track, review, and manage your data from any device, anytime."
     image: /images/measurements.png
 
-  - title: Optimized out of the box
-    content: Lightweight and fast. Packed with <span class="text-accent font-bold">Astro</span>, <span class="text-[#38bdf8] font-bold">tailwind</span> and <span class="text-[#e41c81] font-bold">Sass</span> goodness, so your pages load <b class='text-accent'>blazing fast</b>—right from the start. <br/> All the pages are configured in a way that are SEO-friendly and defined with markdown.
+  - title: <span class="text-[#38bdf8] font-bold">Visualize</span> Your Progress
+    content: "Unlock powerful <span class='text-[#38bdf8] font-bold'>analytics</span> and interactive <span class='text-[#38bdf8] font-bold'>graphs</span> to spot trends, patterns, and outliers in your glucose data. Filter by date, meal, or event, and gain actionable <span class='text-[#38bdf8] font-bold'>insights</span> to help you make informed health decisions."
     image: /images/graphs.png
 
-  - title: Looks great, day or night
-    content: "With <b class='text-accent'>built-in dark theme support</b>, your site will look amazing no matter what time of day your users visit. Or what their eyes prefer.<br/> <br/>Forget convoluted theming systems. alfadev-astro-starter keeps it <b class='text-accent'>simple and extensible</b>, so you can focus on your design and let the code work fori you."
+  - title: Your Data, Your <span class="text-[#38bdf8] font-bold">Control</span>
+    content: "Build a personalized <span class='text-[#38bdf8] font-bold'>profile</span> with your health info, device type, and preferences. Download or delete your data at any time—<span class='text-[#38bdf8] font-bold'>Tokai</span> puts you in charge, ensuring <span class='text-[#38bdf8] font-bold'>privacy</span> and a tailored experience just for you."
     image: /images/profile.png
 
 

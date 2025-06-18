@@ -15,13 +15,12 @@
     "footer_description": "Building the next generation in medical AI apps",
     "email": "r11922203@csie.ntu.edu.tw",
     "location": "Taipei, Taiwan, and Virginia, USA",
-    "phone": "+1 0916762414",
     "contact_form_action": "#",
     "copyright": "Website template from [AlfaDev](https://github.com/diego-alfadev)"
 },
 
   "metadata": {
-    "meta_author": "alfadev",
+    "meta_author": "Tokai",
     "meta_image": "/images/tokai3.png",
     "meta_description": "Tokai is an AI-powered assistant and analytics platform for managing your blood glucose data and health insights.",
     "meta_keywords": ["tokai", "AI health", "glucose analytics", "health assistant", "astro", "modern web"],

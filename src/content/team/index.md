@@ -4,7 +4,7 @@ meta_description: "Meet the talented team behind our project"
 meta_keywords: "team, developers, researchers, AI, healthcare"
 
 title: "Meet Our Team"
-description: "A dedicated group of developers, researchers, and healthcare professionals working to improve diabetes management through AI."
+description: "A dedicated group of developers and healthcare professionals working to improve blood glucose management through AI."
 
 ---
 
@@ -15,7 +15,7 @@ description: "A dedicated group of developers, researchers, and healthcare profe
     <h3 class="text-xl font-bold mb-1">Austin Hua</h3>
     <a href="https://www.linkedin.com/in/austin-hua/" target="_blank" class="text-accent underline mb-1">LinkedIn</a>
     <div class="text-sm text-text-secondary mb-2">Co-Founder</div>
-    <p class="text-center text-base">Austin专注于AI与数据科学，致力于用技术改善糖尿病管理体验。</p>
+    <p class="text-center text-base">Talk is cheap. Show me the code. Wait... code is cheap too now.</p>
   </div>
   <!-- Eason Li -->
   <div class="flex-1 bg-surface rounded-xl shadow p-6 flex flex-col items-center">

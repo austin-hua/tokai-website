@@ -17,7 +17,9 @@ const { Content } = await about.render();
   <section class="py-16">
     <div class="container">
       <div class="mx-auto max-w-[768px] text-left mb-10">
-        <h1 class="text-3xl font-bold mb-6">About our company</h1>
+        <div class="text-lg leading-relaxed mb-8">
+          <PageHeader page_data={page_data} />
+        </div>
         <div class="text-lg leading-relaxed">
 Tokai was founded by Austin Hua in 2022 and has gone through several phases of exploration, release, and redefinition. Over time, it became clear that the most compelling direction was also the most novel: integrating real-time glucose data with language model conversations.
 
@@ -29,9 +31,8 @@ Tokai isn’t just about AI, or health—it’s about building a deeper interfac
         </div>
       </div>
       <div class="mx-auto max-w-[768px] text-center">
-        <PageHeader page_data={page_data} />
+        <Content />
       </div>
-      <Content />
     </div>
   </section>
 </Base>

@@ -16,9 +16,7 @@ const { title, description, buttons } = page_data || {};
   <h1 class="mb-5 mt-8" set:html={markdownify(title)} />
   {
     description && (
-      <p class="text-lg text-center text-text-secondary">
-        {description}
-      </p>
+      <p class="text-lg text-left text-text-secondary" set:markdown={description} />
     )
   }
   {
